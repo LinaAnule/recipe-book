@@ -7,7 +7,7 @@ import {Recipe} from "../recipe.model";
   styleUrl: './recipes-list.component.css'
 })
 export class RecipesListComponent {
-  repcipes: Recipe[] = [
+  recipes: Recipe[] = [
     new Recipe('A test recipe', 'this is a test ', 'https://www.averiecooks.com/wp-content/uploads/2021/01/garlicbutterchicken-5.jpg')
 
 ];
