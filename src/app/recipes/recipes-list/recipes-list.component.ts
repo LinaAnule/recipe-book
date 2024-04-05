@@ -1,4 +1,4 @@
-import {Component} from '@angular/core';
+import {Component, EventEmitter, Output} from '@angular/core';
 import {Recipe} from "../recipe.model";
 
 @Component({
@@ -10,7 +10,6 @@ export class RecipesListComponent {
   recipes: Recipe[] = [
     new Recipe('A test recipe', 'this is a test ', 'https://www.averiecooks.com/wp-content/uploads/2021/01/garlicbutterchicken-5.jpg')
 
-];
-
+  ];
 
 }
